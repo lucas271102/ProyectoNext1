@@ -18,7 +18,7 @@ async function HomePage() {
 
             <h2 className="text-center text-black">{user.first_name}  {user.last_name}</h2>
             <h3 className="text-black text-center">Email : {user.email}</h3>
-            <img src={user.avatar} className="w-36 h-36  rounded-md flex justify-center items-center" />
+            <img src={user.avatar} className="w-36 h-36  rounded-md flex justify-center items-center border border-black" />
           </div>
 
         ))}
