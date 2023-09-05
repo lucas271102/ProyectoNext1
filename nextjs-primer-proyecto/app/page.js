@@ -7,7 +7,7 @@ async function getUsers() {
 async function HomePage() {
   const users = await getUsers();
   return <div className="bg-black">
-    <h1>{users.first_name}  {users.last_name}</h1>
+    <h1 className="bg-black">{users.first_name}  {users.last_name}</h1>
     <img src={users.avatar}/>
     
   
